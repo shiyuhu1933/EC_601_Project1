@@ -13,3 +13,4 @@ Question and answers: In COCO dataset, it has already included questions and ans
 According to Antol [1], there are two channels in the model, including image channel for embedding image features and question channel for embedding question features. Convolutional Neural Network (CNN) will be used in the image channel and Long Short-Term Memory (LSTM) will be used in the question channel. Then, two features will be fused by element-wise multiplication and transformed to a fully connected layer followed by a softmax layer.
 ## Open-Source Research
 An example of CNN&LSTM combination is the “Deeper LSTM Q + Norm I” from tbmoon Github implemented by Pytorch [3]. Also, the combination of a LSTM channel for question features and a normalized VGGNet for image features shows the best performance. The accuracies of answers are shown as follows:
+![]
